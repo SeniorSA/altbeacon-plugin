@@ -27,7 +27,7 @@ Use the `scan` method to scan for nearby beacon. This method returns 30 seconds 
                 ....
             });
 ```
-Use the `ads` method to advertise new beacons u. This methos needs the advertise url, and the duration of the advertise window in milliseconds.
+Use the `ads` method to advertise new beacons. This method needs the advertise url and the duration of the advertise window in milliseconds.
 ``` javascript
 window.plugins.altbeaconPlugin.ads("https://teste55.com/HhHhss", 10000, function(result) {
                 ...
