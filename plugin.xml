@@ -7,9 +7,9 @@
     <description>An Android Cordova plugin that allows users to use altbacon.</description>
     <license>MIT</license>
 
-    <keywords>cordova,android,toast,message,alert</keywords>
-    <repo>http://git.senior.com.br/pesquisa/altbeacon-plugin.git</repo>
-    <issue>http://git.senior.com.br/pesquisa/altbeacon-plugin/issues</issue>
+    <keywords>cordova,android,ble,beacons,eddystone,</keywords>
+    <repo>https://github.com/SeniorSA/altbeacon-plugin/altbeacon-plugin.git</repo>
+    <issue>https://github.com/SeniorSA/altbeacon-plugin/issues</issue>
   
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
