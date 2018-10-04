@@ -1,0 +1,32 @@
+{
+  "name": "altbeacon-plugin",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to use altbeacon.",
+  "cordova": {
+    "id": "altbeacon-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoD27avila/altbeacon-plugin.git"
+  },
+  "keywords": [
+    "altbeacon",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Rodrigo D'avila <rodrigo.davila@senior.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoD27avila/altbeacon-plugin/issues"
+  },
+  "homepage": "https://github.com/RodrigoD27avila/altbeacon-plugin"
+}

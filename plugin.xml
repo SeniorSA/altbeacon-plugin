@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="altbeacon-plugin" version="0.0.1">
+    <name>AltbeaconPlugin</name>
+
+    <description>An Android Cordova plugin that allows users to use altbacon.</description>
+    <license>MIT</license>
+
+    <keywords>cordova,android,toast,message,alert</keywords>
+    <repo>http://git.senior.com.br/pesquisa/altbeacon-plugin.git</repo>
+    <issue>http://git.senior.com.br/pesquisa/altbeacon-plugin/issues</issue>
+  
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+  
+    <js-module src="www/altbeaconplugin.js" name="altbeaconPlugin">
+        <clobbers target="window.plugins.altbeaconPlugin" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AltbeaconPlugin">
+                <param name="android-package" value="com.rodrigo.davila.cordova.plugin.AltbeaconPlugin"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/AltbeaconPlugin.java" target-dir="src/com/rodrigo/davila/cordova/plugin" />
+
+        <framework src="org.altbeacon:android-beacon-library:2.15.1" />
+
+    </platform>
+</plugin>
